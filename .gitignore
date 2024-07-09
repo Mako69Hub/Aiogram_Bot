@@ -1,0 +1,4 @@
+vevn/
+.idea/
+config.py
+db.sqlite3
