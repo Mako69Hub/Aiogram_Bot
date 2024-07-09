@@ -8,7 +8,6 @@ engine = create_async_engine(url='sqlite+aiosqlite:///db.sqlite3')  # созда
 async_session = async_sessionmaker(engine)  # подключение к бд
 
 
-
 class Base(AsyncAttrs, DeclarativeBase):  # цправлять всеми таблицами
     pass
 
